@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>FVFM Risk Radar</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>📡 FVFM Risk Radar</h1>
+
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Hisse ara (AK...)"
+    />
+  </div>
+
+  <div class="list-wrapper">
+    <div class="stock-card header-row">
+      <span>HİSSE</span>
+      <span>BETA</span>
+      <span>GERÇEK %</span>
+      <span>BEKLENEN %</span>
+    </div>
+
+    <div id="stockList">YÜKLENİYOR...</div>
+  </div>
+</div>
+
+<script src="js/radar.js" defer></script>
+</body>
+</html>
