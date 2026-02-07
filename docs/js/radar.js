@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:8000";
+const API = "https://fvfm-risk-analiz.onrender.com";
 const list = document.getElementById("stockList");
 const searchInput = document.getElementById("searchInput");
 
