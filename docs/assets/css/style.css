@@ -170,19 +170,20 @@ button:disabled {
 }
 
 .footer {
-    margin-top: 50px;
-    padding: 18px 10px;
+    width: 100%;
     text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
     font-size: 13px;
-    color: #9da7b3;
-    border-top: 1px solid #1f2933;
-    letter-spacing: 0.5px;
+    color: #8b949e;
 }
 
-/* mobilde daha kompakt */
-@media (max-width: 600px) {
-    .footer {
-        font-size: 12px;
-        padding: 16px 8px;
-    }
+.footer a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
